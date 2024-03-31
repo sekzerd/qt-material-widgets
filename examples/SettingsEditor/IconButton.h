@@ -1,7 +1,7 @@
 #ifndef ICONBUTTONSETTINGSMANAGER_H
 #define ICONBUTTONSETTINGSMANAGER_H
 
-#include "ui_IconButtonSettingsForm.h"
+#include "ui_IconButton.h"
 #include <QWidget>
 
 class QtMaterialIconButton;

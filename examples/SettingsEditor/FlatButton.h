@@ -1,7 +1,7 @@
 #ifndef FLATBUTTONSETTINGSMANAGER_H
 #define FLATBUTTONSETTINGSMANAGER_H
 
-#include "ui_FlatButtonSettingsForm.h"
+#include "ui_FlatButton.h"
 #include <QWidget>
 
 class QtMaterialFlatButton;

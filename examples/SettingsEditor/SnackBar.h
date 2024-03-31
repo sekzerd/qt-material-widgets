@@ -1,7 +1,7 @@
 #ifndef SNACKBARSETTINGSEDITOR_H
 #define SNACKBARSETTINGSEDITOR_H
 
-#include "ui_SnackBarSettingsForm.h"
+#include "ui_SnackBar.h"
 #include <QWidget>
 
 class QtMaterialSnackbar;

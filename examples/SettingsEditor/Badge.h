@@ -1,7 +1,7 @@
 #ifndef BADGESETTINGSEDITOR_H
 #define BADGESETTINGSEDITOR_H
 
-#include "ui_BadgeSettingsForm.h"
+#include "ui_Badge.h"
 #include <QWidget>
 
 class QtMaterialAvatar;

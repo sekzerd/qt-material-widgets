@@ -1,7 +1,7 @@
 #ifndef DRAWERSETTINGSEDITOR_H
 #define DRAWERSETTINGSEDITOR_H
 
-#include "ui_DrawerSettingsForm.h"
+#include "ui_Drawer.h"
 #include <QWidget>
 
 class QtMaterialDrawer;

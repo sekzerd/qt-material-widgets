@@ -1,7 +1,7 @@
 #ifndef FABSETTINGSEDITOR_H
 #define FABSETTINGSEDITOR_H
 
-#include "ui_FabSettingsForm.h"
+#include "ui_Fab.h"
 #include <QWidget>
 
 class QtMaterialFloatingActionButton;

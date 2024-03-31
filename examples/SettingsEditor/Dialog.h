@@ -1,7 +1,7 @@
 #ifndef DIALOGSETTINGSEDITOR_H
 #define DIALOGSETTINGSEDITOR_H
 
-#include "ui_DialogSettingsForm.h"
+#include "ui_Dialog.h"
 #include <QWidget>
 
 class QtMaterialDialog;

@@ -1,7 +1,7 @@
 #ifndef TABSSETTINGSEDITOR_H
 #define TABSSETTINGSEDITOR_H
 
-#include "ui_TabsSettingsForm.h"
+#include "ui_Tabs.h"
 #include <QWidget>
 
 class QtMaterialTabs;

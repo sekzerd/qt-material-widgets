@@ -1,7 +1,7 @@
 #ifndef SLIDERSETTINGSEDITOR_H
 #define SLIDERSETTINGSEDITOR_H
 
-#include "ui_SliderSettingsForm.h"
+#include "ui_Slider.h"
 #include <QWidget>
 
 class QtMaterialSlider;

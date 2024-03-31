@@ -1,7 +1,7 @@
 #ifndef TEXTFIELDSETTINGSEDITOR_H
 #define TEXTFIELDSETTINGSEDITOR_H
 
-#include "ui_TextFieldSettingsForm.h"
+#include "ui_TextField.h"
 #include <QWidget>
 
 class QtMaterialTextField;

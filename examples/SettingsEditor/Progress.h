@@ -1,7 +1,7 @@
 #ifndef PROGRESSSETTINGSEDITOR_H
 #define PROGRESSSETTINGSEDITOR_H
 
-#include "ui_ProgressSettingsForm.h"
+#include "ui_Progress.h"
 #include <QWidget>
 
 class QtMaterialProgress;

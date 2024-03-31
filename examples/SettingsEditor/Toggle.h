@@ -1,7 +1,7 @@
 #ifndef TOGGLESETTINGSEDITOR_H
 #define TOGGLESETTINGSEDITOR_H
 
-#include "ui_ToggleSettingsForm.h"
+#include "ui_Toggle.h"
 #include <QWidget>
 
 class QtMaterialToggle;

@@ -1,7 +1,7 @@
 #ifndef AVATARSETTINGSEDITOR_H
 #define AVATARSETTINGSEDITOR_H
 
-#include "ui_AvatarSettingsForm.h"
+#include "ui_Avatar.h"
 #include <QWidget>
 
 class QtMaterialAvatar;

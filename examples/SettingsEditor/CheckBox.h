@@ -1,7 +1,7 @@
 #ifndef CHECKBOXSETTINGSEDITOR_H
 #define CHECKBOXSETTINGSEDITOR_H
 
-#include "ui_CheckBoxSettingsForm.h"
+#include "ui_CheckBox.h"
 #include <QWidget>
 
 class QtMaterialCheckable;
