@@ -10,6 +10,7 @@ SOURCES += \
     SettingsEditor/CheckBox.cpp \
     SettingsEditor/CircularProgress.cpp \
     SettingsEditor/Dialog.cpp \
+    SettingsEditor/Divider.cpp \
     SettingsEditor/Drawer.cpp \
     SettingsEditor/Fab.cpp \
     SettingsEditor/FlatButton.cpp \
@@ -35,6 +36,7 @@ HEADERS += \
     SettingsEditor/CheckBox.h \
     SettingsEditor/CircularProgress.h \
     SettingsEditor/Dialog.h \
+    SettingsEditor/Divider.h \
     SettingsEditor/Drawer.h \
     SettingsEditor/Fab.h \
     SettingsEditor/FlatButton.h \
@@ -75,6 +77,7 @@ FORMS += \
     SettingsEditor/CheckBox.ui \
     SettingsEditor/CircularProgress.ui \
     SettingsEditor/Dialog.ui \
+    SettingsEditor/Divider.ui \
     SettingsEditor/Drawer.ui \
     SettingsEditor/Fab.ui \
     SettingsEditor/FlatButton.ui \

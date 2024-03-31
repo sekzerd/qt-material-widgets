@@ -19,9 +19,8 @@ protected slots:
     void updateWidget();
     void selectColor();
 
-private:
-    //Ui::AutoCompleteSettingsForm *const ui;
-    QtMaterialAutoComplete       *const m_autocomplete;
+  private:
+    QtMaterialAutoComplete *const m_autocomplete;
 };
 
 #endif // AUTOCOMPLETESETTINGSEDITOR_H

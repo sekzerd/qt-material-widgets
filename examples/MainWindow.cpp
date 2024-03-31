@@ -22,27 +22,28 @@ MainWindow::MainWindow(QWidget *parent)
 
     setCentralWidget(widget);
 
-    AvatarSettingsEditor *avatar = new AvatarSettingsEditor;
-    BadgeSettingsEditor *badge = new BadgeSettingsEditor;
-    CheckBoxSettingsEditor *checkbox = new CheckBoxSettingsEditor;
-    FloatingActionButtonSettingsEditor *fab = new FloatingActionButtonSettingsEditor;
-    RaisedButtonSettingsEditor *raisedButton = new RaisedButtonSettingsEditor;
-    FlatButtonSettingsEditor *flatButton = new FlatButtonSettingsEditor;
-    IconButtonSettingsEditor *iconButton = new IconButtonSettingsEditor;
-    ProgressSettingsEditor *progress = new ProgressSettingsEditor;
-    CircularProgressSettingsEditor *circularProgress = new CircularProgressSettingsEditor;
-    SliderSettingsEditor *slider = new SliderSettingsEditor;
-    RadioButtonSettingsEditor *radioButton = new RadioButtonSettingsEditor;
-    ToggleSettingsEditor *toggle = new ToggleSettingsEditor;
-    TextFieldSettingsEditor *textField = new TextFieldSettingsEditor;
-    TabsSettingsEditor *tabs = new TabsSettingsEditor;
-    SnackbarSettingsEditor *snackbar = new SnackbarSettingsEditor;
-    DialogSettingsEditor *dialog = new DialogSettingsEditor;
-    DrawerSettingsEditor *drawer = new DrawerSettingsEditor;
-    ScrollBarSettingsEditor *scrollBar = new ScrollBarSettingsEditor;
-    AppBarSettingsEditor *appBar = new AppBarSettingsEditor;
-    AutoCompleteSettingsEditor *autocomplete = new AutoCompleteSettingsEditor;
-    MenuSettingsEditor *menu = new MenuSettingsEditor;
+    auto *avatar = new AvatarSettingsEditor;
+    auto *badge = new BadgeSettingsEditor;
+    auto *checkbox = new CheckBoxSettingsEditor;
+    auto *fab = new FloatingActionButtonSettingsEditor;
+    auto *raisedButton = new RaisedButtonSettingsEditor;
+    auto *flatButton = new FlatButtonSettingsEditor;
+    auto *iconButton = new IconButtonSettingsEditor;
+    auto *progress = new ProgressSettingsEditor;
+    auto *circularProgress = new CircularProgressSettingsEditor;
+    auto *slider = new SliderSettingsEditor;
+    auto *radioButton = new RadioButtonSettingsEditor;
+    auto *toggle = new ToggleSettingsEditor;
+    auto *textField = new TextFieldSettingsEditor;
+    auto *tabs = new TabsSettingsEditor;
+    auto *snackbar = new SnackbarSettingsEditor;
+    auto *dialog = new DialogSettingsEditor;
+    auto *drawer = new DrawerSettingsEditor;
+    auto *scrollBar = new ScrollBarSettingsEditor;
+    auto *appBar = new AppBarSettingsEditor;
+    auto *autocomplete = new AutoCompleteSettingsEditor;
+    auto *menu = new MenuSettingsEditor;
+    auto *divider = new DividerSettingsEditor;
 
     stack->addWidget(appBar);
     stack->addWidget(autocomplete);
@@ -65,6 +66,7 @@ MainWindow::MainWindow(QWidget *parent)
     stack->addWidget(tabs);
     stack->addWidget(textField);
     stack->addWidget(toggle);
+    stack->addWidget(divider);
 
     list->addItem("App Bar");
     list->addItem("Auto Complete");
@@ -87,7 +89,7 @@ MainWindow::MainWindow(QWidget *parent)
     list->addItem("Tabs");
     list->addItem("Text Field");
     list->addItem("Toggle");
-
+    list->addItem("Divider");
     list->setCurrentRow(0);
 
     QObject::connect(list,  &QListWidget::currentItemChanged,

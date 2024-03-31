@@ -1,6 +1,7 @@
 #ifndef QTMATERIALICONBUTTON_P_H
 #define QTMATERIALICONBUTTON_P_H
 
+#include <QColor>
 #include <QtGlobal>
 
 class QtMaterialIconButton;

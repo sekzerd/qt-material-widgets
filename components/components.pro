@@ -1,6 +1,7 @@
 TEMPLATE = lib
 CONFIG += staticlib
 SOURCES = \
+    Divider.cpp \
     lib/Style.cpp \
     lib/Theme.cpp \ 
     lib/CheckableInternal.cpp \
@@ -52,6 +53,7 @@ SOURCES = \
 HEADERS = \
     AvatarPrivate.h \
     Avatar.h \
+    Divider.h \
     lib/OverlayWidget.h \
     lib/StylePrivate.h \
     lib/Style.h \

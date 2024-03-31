@@ -8,6 +8,7 @@
 #include "SettingsEditor/CheckBox.h"
 #include "SettingsEditor/CircularProgress.h"
 #include "SettingsEditor/Dialog.h"
+#include "SettingsEditor/Divider.h"
 #include "SettingsEditor/Drawer.h"
 #include "SettingsEditor/Fab.h"
 #include "SettingsEditor/FlatButton.h"
