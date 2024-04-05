@@ -292,10 +292,10 @@ YouTube video preview [available here](http://www.youtube.com/watch?v=21UMeNVBPU
 - [x] Tabs
 - [x] Text Field
 - [x] Toggle
+- [x] Divider
 
 #### Work in progress
 
-- [ ] Divider
 - [ ] List
 - [ ] List Item
 - [ ] Menu
@@ -303,7 +303,7 @@ YouTube video preview [available here](http://www.youtube.com/watch?v=21UMeNVBPU
 - [ ] Snackbar Layout
 - [ ] Table
 
-#### Not implemented 
+#### Not implemented
 
 - [ ] Card
 - [ ] Chips

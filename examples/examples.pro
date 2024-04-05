@@ -3,55 +3,55 @@ TEMPLATE = app
 CONFIG += c++11
 
 SOURCES += \
-    SettingsEditor/AppBar.cpp \
-    SettingsEditor/AutoComplete.cpp \
-    SettingsEditor/Avatar.cpp \
-    SettingsEditor/Badge.cpp \
-    SettingsEditor/CheckBox.cpp \
-    SettingsEditor/CircularProgress.cpp \
-    SettingsEditor/Dialog.cpp \
-    SettingsEditor/Divider.cpp \
-    SettingsEditor/Drawer.cpp \
-    SettingsEditor/Fab.cpp \
-    SettingsEditor/FlatButton.cpp \
-    SettingsEditor/IconButton.cpp \
-    SettingsEditor/Menu.cpp \
-    SettingsEditor/Progress.cpp \
-    SettingsEditor/RadioButton.cpp \
-    SettingsEditor/RaisedButton.cpp \
-    SettingsEditor/ScrollBar.cpp \
-    SettingsEditor/Slider.cpp \
-    SettingsEditor/SnackBar.cpp \
+    SettingsEditor/SEAppBar.cpp \
+    SettingsEditor/SEAutoComplete.cpp \
+    SettingsEditor/SEAvatar.cpp \
+    SettingsEditor/SEBadge.cpp \
+    SettingsEditor/SECheckBox.cpp \
+    SettingsEditor/SECircularProgress.cpp \
+    SettingsEditor/SEDialog.cpp \
+    SettingsEditor/SEDivider.cpp \
+    SettingsEditor/SEDrawer.cpp \
+    SettingsEditor/SEFab.cpp \
+    SettingsEditor/SEFlatButton.cpp \
+    SettingsEditor/SEIconButton.cpp \
+    SettingsEditor/SEMenu.cpp \
+    SettingsEditor/SEProgress.cpp \
+    SettingsEditor/SERadioButton.cpp \
+    SettingsEditor/SERaisedButton.cpp \
+    SettingsEditor/SEScrollBar.cpp \
+    SettingsEditor/SESlider.cpp \
+    SettingsEditor/SESnackBar.cpp \
+    SettingsEditor/SETabs.cpp \
     MainWindow.cpp \
-    SettingsEditor/Tabs.cpp \
-    SettingsEditor/TextField.cpp \
-    SettingsEditor/Toggle.cpp \
+    SettingsEditor/SETextField.cpp \
+    SettingsEditor/SEToggle.cpp \
     main.cpp
 
 HEADERS += \
-    SettingsEditor/AppBar.h \
-    SettingsEditor/AutoComplete.h \
-    SettingsEditor/Avatar.h \
-    SettingsEditor/Badge.h \
-    SettingsEditor/CheckBox.h \
-    SettingsEditor/CircularProgress.h \
-    SettingsEditor/Dialog.h \
-    SettingsEditor/Divider.h \
-    SettingsEditor/Drawer.h \
-    SettingsEditor/Fab.h \
-    SettingsEditor/FlatButton.h \
-    SettingsEditor/IconButton.h \
-    SettingsEditor/Menu.h \
-    SettingsEditor/Progress.h \
-    SettingsEditor/RadioButton.h \
-    SettingsEditor/RaisedButton.h \
-    SettingsEditor/ScrollBar.h \
-    SettingsEditor/Slider.h \
-    SettingsEditor/SnackBar.h \
+    SettingsEditor/SEAppBar.h \
+    SettingsEditor/SEAutoComplete.h \
+    SettingsEditor/SEAvatar.h \
+    SettingsEditor/SEBadge.h \
+    SettingsEditor/SECheckBox.h \
+    SettingsEditor/SECircularProgress.h \
+    SettingsEditor/SEDialog.h \
+    SettingsEditor/SEDivider.h \
+    SettingsEditor/SEDrawer.h \
+    SettingsEditor/SEFab.h \
+    SettingsEditor/SEFlatButton.h \
+    SettingsEditor/SEIconButton.h \
+    SettingsEditor/SEMenu.h \
+    SettingsEditor/SEProgress.h \
+    SettingsEditor/SERadioButton.h \
+    SettingsEditor/SERaisedButton.h \
+    SettingsEditor/SEScrollBar.h \
+    SettingsEditor/SESlider.h \
+    SettingsEditor/SESnackBar.h \
+    SettingsEditor/SETabs.h \
     MainWindow.h \
-    SettingsEditor/Tabs.h \
-    SettingsEditor/TextField.h \
-    SettingsEditor/Toggle.h
+    SettingsEditor/SETextField.h \
+    SettingsEditor/SEToggle.h
 
 HEADERS += SettingEditor.h
 
@@ -71,22 +71,22 @@ RESOURCES += \
     examples.qrc
 
 FORMS += \
-    SettingsEditor/AppBar.ui \
-    SettingsEditor/Avatar.ui \
-    SettingsEditor/Badge.ui \
-    SettingsEditor/CheckBox.ui \
-    SettingsEditor/CircularProgress.ui \
-    SettingsEditor/Dialog.ui \
-    SettingsEditor/Divider.ui \
-    SettingsEditor/Drawer.ui \
-    SettingsEditor/Fab.ui \
-    SettingsEditor/FlatButton.ui \
-    SettingsEditor/IconButton.ui \
-    SettingsEditor/Progress.ui \
-    SettingsEditor/RadioButton.ui \
-    SettingsEditor/ScrollBar.ui \
-    SettingsEditor/Slider.ui \
-    SettingsEditor/SnackBar.ui \
-    SettingsEditor/Tabs.ui \
-    SettingsEditor/TextField.ui \
-    SettingsEditor/Toggle.ui
+    SettingsEditor/SEAppBar.ui \
+    SettingsEditor/SEAvatar.ui \
+    SettingsEditor/SEBadge.ui \
+    SettingsEditor/SECheckBox.ui \
+    SettingsEditor/SECircularProgress.ui \
+    SettingsEditor/SEDialog.ui \
+    SettingsEditor/SEDivider.ui \
+    SettingsEditor/SEDrawer.ui \
+    SettingsEditor/SEFab.ui \
+    SettingsEditor/SEFlatButton.ui \
+    SettingsEditor/SEIconButton.ui \
+    SettingsEditor/SEProgress.ui \
+    SettingsEditor/SERadioButton.ui \
+    SettingsEditor/SEScrollBar.ui \
+    SettingsEditor/SESlider.ui \
+    SettingsEditor/SESnackBar.ui \
+    SettingsEditor/SETabs.ui \
+    SettingsEditor/SETextField.ui \
+    SettingsEditor/SEToggle.ui

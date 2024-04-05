@@ -1,7 +1,7 @@
-#include "CircularProgress.h"
-#include "CircularProgressInternal.h"
-#include "CircularProgressPrivate.h"
-#include "lib/Style.h"
+#include "QMCircularProgress.h"
+#include "QMCircularProgressInternal.h"
+#include "QMCircularProgressPrivate.h"
+#include "lib/QMStyle.h"
 #include <QPainter>
 #include <QPainterPath>
 #include <QParallelAnimationGroup>
